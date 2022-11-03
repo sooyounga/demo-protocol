@@ -22,10 +22,6 @@
 	],
 	"ui": {
         "addProperties": [
-            {"isAbout": "../activities/demographics/demographics_schema",
-            "variableName": "demographics_schema",
-            "prefLabel": {"en": "Demographics"}
-            },
             {"isAbout": "../activities/Activity1/activity1_schema",
             "variableName": "activity1_schema",
             "prefLabel": {"en": "Upload Documents"}
@@ -52,8 +48,7 @@
             }
         ],
     "order": [
-            "../activities/demographics/demographics_schema",
-	        "../activities/Activity1/activity1_schema",
+	    "../activities/Activity1/activity1_schema",
             "../activities/Activity2/Activity2_schema",
             "../activities/Activity3/Activity3_schema",
             "../activities/selectActivity/selectActivity_schema",
